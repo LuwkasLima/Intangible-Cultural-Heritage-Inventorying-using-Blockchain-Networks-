@@ -1,0 +1,7 @@
+# Data and Storage Layer
+
+Due to the high cost of writing historical records data onto a blockchain [8], this “off-chain” data associated with the NFT still needs to be stored in a decentralized manner, ensuring it remains accessible for the lifetime of that record. With the help of IPFS (Interplanetary File System) and Filecoin (decentralized storage network), we can effectively store these invaluable cultural records. Filecoin provides long-term storage for the data ensuring that even if the platform is attacked or taken down the historical NFT record persists. This storage is trustlessly verifiable (with on-chain, cryptographic proofs that data is stored as promised). 
+
+Historical NFT records will be content addressed using IPFS, meaning the URI pointing to a piece of data (“ipfs://…”) is completely unique to that data (using a content identifier, or CID) and can be accessed from the decentralized IPFS network from any peer that has the content. The data can be fetched directly in the browser using Brave (Web Browser), or via a public IPFS gateway, or by using IPFS Desktop or the IPFS command line [9].
+
+

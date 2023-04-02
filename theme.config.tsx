@@ -2,7 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>Intangible Cultural Heritage Inventorying with Blockchain Networks</span>,
+  logo: <span>PRIMER - Intangible Cultural Heritage Inventorying Using Blockchain</span>,
   project: {
     link: 'https://github.com/LuwkasLima/Intangible-Cultural-Heritage-Inventorying-using-Blockchain-Networks-',
   },
